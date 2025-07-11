@@ -1,9 +1,7 @@
 name: Deploy Dist
 
-on:
-  push:
-  workflow_dispatch:
-
+on: [push, workflow_dispatch]
+# ignore workflow
 jobs:
   test:
     runs-on: ubuntu-latest
