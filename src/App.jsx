@@ -6,6 +6,7 @@ function App() {
     <>
       <h1>Github Actions</h1>
       <h2>Cicd implementation with github action</h2>
+      <h5>with sonar cloud</h5>
     </>
   )
 }
