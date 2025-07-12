@@ -1,6 +1,13 @@
 name: Deploy Dist
 
-on: [push, workflow_dispatch]
+on:
+  push:
+      branches:
+            - main
+            - 'feature/**'
+      paths-ignore:
+            - '.github/workflows/*'
+            - README.md
 # ignore workflow
 jobs:
     test:
