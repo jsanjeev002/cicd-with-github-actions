@@ -1,4 +1,4 @@
-name: Sonar Cloud Scan
+name: Build
 on:
   push:
     branches:
@@ -16,5 +16,4 @@ jobs:
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v5
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
