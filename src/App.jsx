@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <h1>Github Actions</h1>
-      <h2>cicd implematantation with github action</h2>
+      <h2>Cicd implementation with github action</h2>
     </>
   )
 }
